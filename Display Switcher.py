@@ -7,6 +7,7 @@ f = open("default.txt", "a+")
 f.close()
 
 def default():
+    print("Warning: This script modifies Raspbian config files. If you are uncertain as to whether you need this script, please visit https://github.com/RaspberryPicardBox/DisplaySwitcher")
     f = open("default.txt", "w+")
     default_display = str.lower(raw_input("Which display would you like to use as your default? (This is a one time setup) HDMI = H Hyperpixel = P: "))
     if default_display == "h":
