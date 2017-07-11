@@ -30,6 +30,7 @@ def Hyperpixel():
 def start():
     print(" ")
     print("Please select which display you would like to use.")
+    print("Make absolute certain that your Hyperpixel display is connected to your Pi before selecting the Hyperpixel display!")
     print("Type H for HDMI, P for Hyperpixel or C to continue using current display: ")
 
     pref = str.lower(raw_input("Preference: "))
